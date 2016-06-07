@@ -1,0 +1,89 @@
+<html>
+<head> 
+	<link type = "text/css" rel = "stylesheet" href="../dist/css/bootstrap.css" />
+</head>
+
+<body>
+
+<div class="container">
+    
+<ul class="nav nav-pills pull-right">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+
+<div class="row">
+  <div class="col-md-10 col-md-push-2">
+  	<h4>Product Catalogue</p> 
+	</h4>
+	<table class="table table-striped">
+		 <thead> 
+			<tr> 
+				<th>#</th> 
+				<th>Product Name</th> 
+				<th>Category</th> 
+				<th>Cost Price</th> 
+			</tr> 
+		</thead> 
+		<tbody> 
+			<tr> 
+				<th scope="row">1</th>
+				<td>Mark</td> 
+				<td>Otto</td> 
+				<td>@mdo</td> 
+				<td>
+					<button type="button" class="btn btn-primary">View Details</button>
+					<button type="button" class="btn btn-warning">Update</button>
+					<button type="button" class="btn btn-danger">Remove</button>
+				</td>
+				</tr> 
+				<tr> 
+				<th scope="row">2</th> 
+				<td>Jacob</td> 
+				<td>Thornton</td> 
+				<td>@fat</td> 
+				<td>
+					<button type="button" class="btn btn-primary">View Details</button>
+					<button type="button" class="btn btn-warning">Update</button>
+					<button type="button" class="btn btn-danger">Remove</button>
+				</td>
+				</tr> 
+				<tr> 
+				<th scope="row">3</th> 
+				<td>Larry</td> 
+				<td>the Bird</td> 
+				<td>@twitter</td> 
+				<td>
+					<button type="button" class="btn btn-primary">View Details</button>
+					<button type="button" class="btn btn-warning">Update</button>
+					<button type="button" class="btn btn-danger">Remove</button>
+				</td>
+			</tr> 
+		</tbody>
+	</table>
+  </div>
+  <div class="col-md-2 col-md-pull-10">
+	  <ul class="nav nav-pills nav-stacked">
+		  <li role="presentation" class="active"><a href="#">Product Catalogue</a></li>
+		  <li role="presentation" class="pull-right"><a href="create_product.html">Create a Product</a></li>
+		  <li role="presentation" class="pull-right"><a href="all_products.html" id='show_user'>All Products</a></li>
+	  </ul>
+  </div>
+</div>
+</div>
+<div id="show_user_sec" class="user_section">
+<table id='userists' cellspacing="0">
+      
+</table>
+</div>
+<div id="update_user_sec" class="user_section">
+
+</div>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<script src="../dist/js/bootstrap.js" ></script>
+</body>
+</html>

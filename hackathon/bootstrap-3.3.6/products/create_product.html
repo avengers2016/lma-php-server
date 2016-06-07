@@ -1,0 +1,76 @@
+<html>
+<head> 
+	<link type = "text/css" rel = "stylesheet" href="../dist/css/bootstrap.css" />
+</head>
+
+<body>
+
+<div class="container">
+    
+<ul class="nav nav-pills pull-right">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+
+<div class="row">
+  <div class="col-md-10 col-md-push-2">
+	<form>
+			  <div class="form-group">
+				<label for="productName">Product Name</label>
+				<input type="email" class="form-control" id="productName" placeholder="Email" width="50%">
+			  </div>
+			  <div class="form-group">
+				<label for="productCategory">Category</label>
+				<div class="dropdown">
+					  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Default
+						<span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li><a href="#">Category A</a></li>
+						<li><a href="#">Category B</a></li>
+						<li><a href="#">Category C</a></li>
+						<li><a href="#">Category D</a></li>
+						<li><a href="#">Category E</a></li>
+					  </ul>
+				 </div>
+			  </div>
+			  <div class="form-group">
+				<label for="productCostPrice">Cost Price</label>
+				<input type="number" class="form-control" id="productCostPrice" placeholder="Cost Price">
+			  </div>
+			  <div class="form-group">
+				<label for="productDescription">Product Description</label>
+				<textarea class="form-control" rows="5" id="productDescription" placeholder="Product Description...."></textarea>
+			  </div>
+			  <div class="form-group">
+				<label for="availableInStock">Count in Stock</label>
+				<input type="number" class="form-control" id="availableInStock" placeholder="Count in Stock" width="20%">
+			  </div>
+			  <div class="form-group">
+				<label for="exampleInputFile">Product Image</label>
+				<input type="file" id="exampleInputFile">
+				<p class="help-block">Image should not be more than 2 MB</p>
+			  </div>
+			  <div class="checkbox">
+				<label>
+				  <input type="checkbox"> Check me out
+				</label>
+			  </div>
+			  <button type="button" class="btn btn-success">Save Changes</button>
+		</form>  
+  </div>
+  <div class="col-md-2 col-md-pull-10">
+	  <ul class="nav nav-pills nav-stacked">
+		  <li role="presentation" class="active"><a href="#">Product Catalogue</a></li>
+		  <li role="presentation" class="pull-right"><a href="create_product.html">Create a Product</a></li>
+		  <li role="presentation" class="pull-right"><a href="all_products.html">All Products</a></li>
+	  </ul>
+  </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<script src="../dist/js/bootstrap.js" ></script>
+</body>
+</html>
